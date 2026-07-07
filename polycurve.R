@@ -1,12 +1,17 @@
-##Worksheet 2################
-##Q3#########################
+############################################################
+# SketchPolynom.R
+#
+# Code for "Fractals at SWMS 2026"
+#
+##### Curve sketching for a polynomial in one variable #####
+# Used In: Worksheet 2 (Day 1) 
+# Problem: 3
+############################################################
 
-#### curve sketching for a one dimensional function
+## load viridisLite library to use viridis colours in plots
+library(viridisLite)
 
-######### load the following libraries
-library(viridisLite)  ## to use viridis colours in plots
-
-## generating viridis colour palatte of size, i.e., n = 3
+## generating viridis colour palette of size, i.e., n = 3
 v_col <- viridis(n = 3, option = "D") 
 ## here "D" stands for viridis
 ## you can change option from "A" to "H" for various color possibilities
